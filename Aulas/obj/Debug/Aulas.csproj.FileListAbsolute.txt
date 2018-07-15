@@ -1,0 +1,82 @@
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Controles.g.cs
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\MainWindow.g.cs
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\App.g.cs
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas_MarkupCompile.cache
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas_MarkupCompile.lref
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\bin\Debug\Aulas.exe
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\bin\Debug\Aulas.pdb
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Controles.baml
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\MainWindow.baml
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas.g.resources
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas.Properties.Resources.resources
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas.csproj.GenerateResource.Cache
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas.exe
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Aulas.pdb
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Imagens.g.cs
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Imagens.baml
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Datas.g.cs
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Datas.baml
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Arquivo.g.cs
+C:\Users\Usuario\Google Drive\Fatec\AULAS\2018-1\ADS\C#\MANHA\WPF\Aulas\Aulas\obj\Debug\Arquivo.baml
+C:\Users\0040481621019\Desktop\Aulas\Aulas\obj\Debug\Aulas.exe
+C:\Users\0040481621019\Desktop\Aulas\Aulas\obj\Debug\Aulas.pdb
+E:\Aulas\Aulas\obj\Debug\Aulas.exe
+E:\Aulas\Aulas\obj\Debug\Aulas.pdb
+E:\Aulas\Aulas\bin\Debug\Aulas.exe
+E:\Aulas\Aulas\bin\Debug\Aulas.pdb
+E:\Aulas\Aulas\obj\Debug\Arquivo.g.cs
+E:\Aulas\Aulas\obj\Debug\Controles.g.cs
+E:\Aulas\Aulas\obj\Debug\Datas.g.cs
+E:\Aulas\Aulas\obj\Debug\Imagens.g.cs
+E:\Aulas\Aulas\obj\Debug\MainWindow.g.cs
+E:\Aulas\Aulas\obj\Debug\App.g.cs
+E:\Aulas\Aulas\obj\Debug\Aulas_MarkupCompile.cache
+E:\Aulas\Aulas\obj\Debug\Aulas_MarkupCompile.lref
+E:\Aulas\Aulas\obj\Debug\Arquivo.baml
+E:\Aulas\Aulas\obj\Debug\Controles.baml
+E:\Aulas\Aulas\obj\Debug\Datas.baml
+E:\Aulas\Aulas\obj\Debug\Imagens.baml
+E:\Aulas\Aulas\obj\Debug\MainWindow.baml
+E:\Aulas\Aulas\obj\Debug\Aulas.g.resources
+E:\Aulas\Aulas\obj\Debug\Aulas.Properties.Resources.resources
+E:\Aulas\Aulas\obj\Debug\Aulas.csproj.GenerateResource.Cache
+E:\Aulas\Aulas\obj\Debug\CadastroDB.g.cs
+E:\Aulas\Aulas\obj\Debug\CadastroDB.baml
+E:\Aulas\Aulas\bin\Debug\AppDatabase.dll
+E:\Aulas\Aulas\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+E:\Aulas\Aulas\bin\Debug\MySql.Data.dll
+E:\Aulas\Aulas\bin\Debug\AppDatabase.pdb
+E:\Aulas\Aulas\bin\Debug\AppDatabase.xml
+E:\Aulas\Aulas\obj\Debug\Aulas.csprojResolveAssemblyReference.cache
+F:\Aulas\Aulas\bin\Debug\Aulas.exe
+F:\Aulas\Aulas\bin\Debug\Aulas.pdb
+F:\Aulas\Aulas\obj\Debug\Arquivo.g.cs
+F:\Aulas\Aulas\obj\Debug\CadastroDB.g.cs
+F:\Aulas\Aulas\obj\Debug\Controles.g.cs
+F:\Aulas\Aulas\obj\Debug\Datas.g.cs
+F:\Aulas\Aulas\obj\Debug\Imagens.g.cs
+F:\Aulas\Aulas\obj\Debug\MainWindow.g.cs
+F:\Aulas\Aulas\obj\Debug\App.g.cs
+F:\Aulas\Aulas\obj\Debug\Aulas_MarkupCompile.cache
+F:\Aulas\Aulas\obj\Debug\Aulas_MarkupCompile.lref
+F:\Aulas\Aulas\obj\Debug\Arquivo.baml
+F:\Aulas\Aulas\obj\Debug\CadastroDB.baml
+F:\Aulas\Aulas\obj\Debug\Controles.baml
+F:\Aulas\Aulas\obj\Debug\Datas.baml
+F:\Aulas\Aulas\obj\Debug\Imagens.baml
+F:\Aulas\Aulas\obj\Debug\MainWindow.baml
+F:\Aulas\Aulas\obj\Debug\Aulas.g.resources
+F:\Aulas\Aulas\obj\Debug\Aulas.Properties.Resources.resources
+F:\Aulas\Aulas\obj\Debug\Aulas.csproj.GenerateResource.cache
+F:\Aulas\Aulas\obj\Debug\Aulas.csproj.CoreCompileInputs.cache
+F:\Aulas\Aulas\obj\Debug\Aulas.csproj.CopyComplete
+F:\Aulas\Aulas\obj\Debug\Aulas.exe
+F:\Aulas\Aulas\obj\Debug\Aulas.pdb
+E:\Aulas\Aulas\obj\Debug\Editar Cadastro.g.cs
+E:\Aulas\Aulas\obj\Debug\Editar Cadastro.baml
+F:\Aulas\Aulas\obj\Debug\Editar Cadastro.g.cs
+F:\Aulas\Aulas\obj\Debug\Editar Cadastro.baml
+F:\Aulas\Aulas\obj\Debug\Aulas.csprojResolveAssemblyReference.cache
+F:\Aulas\Aulas\bin\Debug\AppDatabase.pdb
+F:\Aulas\Aulas\bin\Debug\AppDatabase.xml

@@ -1,0 +1,35 @@
+﻿<Window x:Class="Aulas.Datas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aulas"
+        mc:Ignorable="d"
+        Title="Datas" Height="558.394" Width="564.964">
+    <Grid>
+        <Label x:Name="DataHoraAtual" Content="Cronometro" Margin="30,56,215,0" VerticalAlignment="Top" FontSize="20" Background="White" Foreground="Red"/>
+        <Label x:Name="label" Content="Exemplo de Multitarefa - threading" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" Width="217"/>
+        <Label x:Name="ExibeContador" Content="Contador" HorizontalAlignment="Right" Margin="0,58,90,0" VerticalAlignment="Top" RenderTransformOrigin="0.133,0.323" FontSize="22" Foreground="#FF0051FF"/>
+        <Calendar x:Name="Calendario" HorizontalAlignment="Left" Margin="33,143,0,216" d:LayoutOverrides="Height" SelectedDatesChanged="Calendario_SelectedDatesChanged"/>
+        <Label x:Name="Dia" Content="Dia" Margin="246,148,254,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="Ano" Content="Ano" Margin="246,213,246,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="Mes" Content="Mês" Margin="246,182,257,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="DiaSemana" Content="Dia da Semana" Margin="0,146,92,0" VerticalAlignment="Top" HorizontalAlignment="Right" FontSize="18" d:LayoutOverrides="HorizontalAlignment"/>
+        <Label x:Name="NomeMes" Content="Nome do Mês" Margin="0,183,97,0" VerticalAlignment="Top" HorizontalAlignment="Right" d:LayoutOverrides="HorizontalAlignment" FontSize="18"/>
+        <Label x:Name="DataLonga" Content="DataLonga" Margin="248,0,15,236" VerticalAlignment="Bottom" FontSize="16" Foreground="#FF308B0E"/>
+        <TextBox x:Name="Dias" Height="23" Margin="253,0,260,190" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="0"/>
+        <Label x:Name="label1" Content="Adicionar n dias a data" Margin="249,0,178,210" VerticalAlignment="Bottom"/>
+        <Label x:Name="DataMaisDias" Content="Data mais os dias" HorizontalAlignment="Right" Margin="0,0,86,190" VerticalAlignment="Bottom" Width="158"/>
+        <ComboBox x:Name="Culturas" HorizontalAlignment="Left" Margin="35,0,0,175" VerticalAlignment="Bottom" Width="120" SelectionChanged="Culturas_SelectionChanged">
+            <ComboBoxItem Content="en-US"/>
+            <ComboBoxItem Content="pt-BR"/>
+            <ComboBoxItem Content="en-GB"/>
+            <ComboBoxItem Content="fr-FR"/>
+            <ComboBoxItem Content="de-DE"/>
+            <ComboBoxItem Content="ru-RU"/>
+            <ComboBoxItem Content="ja-JP"/>
+        </ComboBox>
+        <Label x:Name="DataSelecionada" Content="Data Selecionada" HorizontalAlignment="Left" Margin="34,0,0,139" VerticalAlignment="Bottom" FontSize="18" Width="196"/>
+
+    </Grid>
+</Window>

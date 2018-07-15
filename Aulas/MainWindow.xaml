@@ -1,0 +1,26 @@
+﻿<Window x:Name="MainWindow1" x:Class="Aulas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aulas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Menu x:Name="menu" Margin="1,0,0,0" Height="23" VerticalAlignment="Top">
+            <MenuItem Header="Controles" ToolTip="Exibe a janela de controles visuais" Click="MenuItem_Click"/>
+            
+            <MenuItem Header="Imagens" ToolTip="Exibe a janela de imagens visuais" Click="MenuItem_Click_1" />
+
+            <MenuItem Header="Data e Hora" ToolTip="Exibe a janela de tratamento de Data e Hora" Click="MenuItem_Click_2" />
+         
+            <MenuItem Header="Arquivo" ToolTip="Editor de texto" Click="MenuItem_Click_3" />
+
+            <MenuItem Header="CadastroDB" ToolTip="Cadastro no banco de dados" Click="MenuItem_Click_4" />
+
+            <MenuItem Header="Editar Cadastro" ToolTip="Editar o cadastro no banco de dados" Click="MenuItem_Click_5"/>
+
+        </Menu>
+
+    </Grid>
+</Window>
