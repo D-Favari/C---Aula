@@ -1,0 +1,186 @@
+﻿
+/*Fontes:
+    tamanho "px" é fixo, nao escalavel.
+    tamanho em "em" é escalavel em todos os dispositivos (recomendado WEC)
+    relacao no tamanho de fontes : 1em = 16 px
+*/
+
+
+html,body,form,div,span,img,pre,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+    border:0px transparent none;
+    font-weight: normal; /* Espessura da fonta (peso)*/
+}
+
+.padding-top-40px{
+    padding-top:40px !important;
+}
+
+box-border{
+    border:1px solid;
+    border-color:#c0c0c0;
+    border-radius:4px;
+    padding:12px;
+}
+
+.background-grey{
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+body {
+    
+    font-family: Arial;
+    background-color: #ffffff;
+    color: #333;
+    border-top: solid 10px #000;
+    font-size: 12px;
+}
+
+
+.vertical-center{
+    /*Só é valido para CSS3*/
+    display: flex;
+    align-items:center;
+}
+
+
+header {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/*determina a largura maxima da area de conteudo : Default = 1024px*/
+.content-wrapper{
+    margin: auto;
+    padding: 0px;
+    /*max-width: 1024px;*/
+    max-width: 920px;
+    background-color: none;
+}
+
+
+
+.heading {
+    height: 60px;
+
+}
+
+.logomarca {
+     height:inherit;
+     max-width: 100px;
+    float: left;
+}
+
+.menu {
+    height:inherit;
+     float: right;
+}
+
+    .menu-normal a {
+        height:inherit;
+        display: flex; /* valido somente para CSS3 */
+        display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+        align-items: center;
+        float: left;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+        font-size: 0.875em; /* =14px */
+        border-bottom: 4px solid;
+        border-bottom-color: transparent;
+        text-transform:uppercase;
+                
+        }
+
+    .menu a:hover{
+        font-weight: normal;
+        background-color: rgba(0,0,0,0.1);
+        border-bottom: 4px solid#222;
+              
+    }
+
+    .body-content{
+        /*padding-top: 30px;*/
+        min-height: 600px;
+    }
+
+    footer{
+        clear: both;
+        padding-top:30px;
+        background-color: rgba(0,0,0,0.1);
+        font-size:0.85em; /*12px*/
+        min-height:240px;
+    }
+
+
+    /* RECIPIENTES PARA CONTEÚDOS EM COLUNAS */
+
+    .container-col{
+
+        display:flex;
+        /*display: -webkit-flex;  Garante compatibilidade com o navegador safari */
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+
+
+    /*Variavel que define as margens dos container (colunas)*/
+
+    :root{
+        --margin-col: 8px;
+    }
+    .col-2{
+        width: calc((100%/2) - (var(--margin-col)*2));
+        margin: var(--margin-col);
+    }
+
+
+
+    /******************************************************************
+                       CONTROLES DE FORMULÁRIOS
+    ******************************************************************/
+
+    input[type="text"], 
+    input[type="password"],
+    textarea,
+    select{
+
+        border: 1px solid #d7d7d7;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.8);
+        color: #555;
+        font-size: 1em;
+        display:block;
+        padding:0.55em 0.55em;
+        width:100%;
+        resize:none;
+        margin-bottom:16px;
+        box-sizing: border-box;
+    }
+
+
+    input[type="submit"],
+    input[type="button"],
+    button{
+        border: 1px solid #c0c0c0;
+        border-radius: 4px;
+        color: #555;
+        font-size: 1em;
+        font-weight:600;
+        padding:10px 20px;
+    }
+
+
+    input[type="submit"]:hover,
+    input[type="button"]:hover,
+    button:hover{
+        background-color:#FFFFFF;
+        color:#222;
+    }
+
+
+

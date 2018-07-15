@@ -1,0 +1,12 @@
+﻿App_Code
+---------------------------------------
+
+	Essa pasta é utilizada para armazenar códigos fontes de classes "C#" que deverão ficar
+ser públicas para todas as outras classes das páginas. 
+
+----------------------------------------
+Coloque também a conexão com banco de dados
+Coloque também os Models de dados
+Coloque também Objetos de Acesso a Dados
+
+----------------------------------------

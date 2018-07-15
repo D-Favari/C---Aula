@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <!-- EXIBE O ICONE NA ABA DO NAVEGADOR-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+
+    <!-- TITULO DA ABA DO NAVEGADOR-->
+    <title>ADS-FATEC</title>
+
+    <!-- PERMITE REDEFINIR OS ELEMENTOS DE ACORDO COM A LARGURA DA TELA DO DISPOSITIVO -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- METADADOS PARA INDEXAÇÃO NA BUSCA DO GOOGLE-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="title" content="ADS-FATEC" />
+    <meta name="language" content="pt" />
+    <meta name="country" content="br" />
+    <meta name="keywords" content="C#,.net,programação,web,java,visual studio" />
+    <meta name="description" content="Sistema web exexplo" />
+    <meta name="author" content="ads-fatec 2018" />
+
+    <!-- ÁREA PARA QUE AS PÁGINAS LIGADAS A MASTER-PAGE POSSAM INSERIR CONTEÚDO NO CABEÇALHO -->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- LIGA O ARQUIVO DE ESTILO A PAGINA-->
+    <link rel="stylesheet" type="text/css" href="~/css/StyleSheet.css" />
+
+    <!-- CARREGA O ARQUINO CSS DO SLIDER -->
+    <link rel="stylesheet" type="text/css" href="~/js/flexslider/flexslider.css" />
+
+    <!-- CARREGA O JAVASCRIPT DO FLEXSLIDER -->
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/flexslider/flexslider.min.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- CABEÇALHO -->
+        <header>
+            <div class="content-wrapper">
+                <div class="heading">
+                    <!-- LOGOMARCA -->
+                    <div class="logomarca vertical-center">
+                        <asp:Image Width="40px" ID="LogoMarca" runat="server" ImageUrl="~/images/marca.png" />
+                    </div>
+                    <!-- MENU -->
+                    <div class="menu">
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">Home</asp:HyperLink>
+
+                        <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Sobre.aspx" runat="server">Sobre</asp:HyperLink>
+             
+                        <asp:HyperLink ID="HyperLink3" NavigateUrl="~/FaleConosco.aspx" runat="server">Fale Conosco</asp:HyperLink>
+
+                        <asp:HyperLink ID="Cadastro" NavigateUrl="~/App_Admin/.aspx" runat="server">Cadastre-se</asp:HyperLink>
+
+                        <asp:HyperLink ID="Login" NavigateUrl="~/Login.aspx" runat="server">Entrar</asp:HyperLink>
+
+                        <asp:HyperLink ID="Logout" NavigateUrl="~/Logout.aspx" runat="server" Visible="false">Sair</asp:HyperLink>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTEUDO -->
+        <div class="body-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- RODAPÉ -->
+        <footer>
+            <div class="content-wrapper">
+                &copy 2018 - Analise e Desenvolvimento de Sistemas - FATEC - Americana<hr />
+                <br />
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
